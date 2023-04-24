@@ -5,30 +5,33 @@
 }
 
 $primarycolor: #92c24c;
-$secondarycolor: #44813e;
+$secondarycolor: #0e2c0c;
 $tertiarycolor: #f4e3a1;
 $textcolor: #ffffff;
 $linkcolor: #fcd949;
 
-body::before {
-  content: "";
-  position: absolute;
-  background: url(images/pexels-ingrid-beck-13827647.jpg);
-  background-color: $primarycolor;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.5;
-  z-index: -1;
-}
 
 body {
     background-color: $primarycolor;
-    
+    &::before {
+        content: "";
+        position: absolute;
+        background: url(images/pexels-ingrid-beck-13827647.jpg);
+        background-color: $primarycolor;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.3;
+        z-index: -1;
+      }
+}
+
+.header {
+    background-color: $secondarycolor;
 }
 
 #content {
