@@ -1,4 +1,4 @@
-import { menu } from "./menu";
+import menu from "./menu";
 
 const header = document.createElement("div");
 const title = document.createElement("h1");

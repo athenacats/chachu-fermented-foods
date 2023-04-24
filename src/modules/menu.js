@@ -8,4 +8,4 @@ function menu() {
   container.appendChild(pastries);
 }
 
-export default menu;
+export default menu();
