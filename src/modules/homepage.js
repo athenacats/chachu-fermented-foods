@@ -1,3 +1,5 @@
+import { menu } from "./menu";
+
 const header = document.createElement("div");
 const title = document.createElement("h1");
 title.textContent = "Chachu Fermented Foods";
@@ -14,6 +16,9 @@ const li2 = document.createElement("li");
 const li3 = document.createElement("li");
 const text1 = document.createTextNode("Home");
 const text2 = document.createTextNode("Menu");
+
+text2.addEventListener("click", menu);
+
 const text3 = document.createTextNode("Contact");
 li1.appendChild(text1);
 li2.appendChild(text2);
