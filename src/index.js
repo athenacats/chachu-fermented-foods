@@ -1,6 +1,4 @@
-import header from "./modules/homepage";
-
-console.log(header);
+import { header, container } from "./modules/homepage";
 
 /* function component() {
   const content = document.getElementById("content");
@@ -9,3 +7,4 @@ console.log(header);
 
 const content = document.getElementById("content");
 content.appendChild(header);
+content.appendChild(container);
