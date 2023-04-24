@@ -1,7 +1,15 @@
 * {
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+$primarycolor: #92C24C;
+$secondarycolor: #44813E;
+$tertiarycolor: #F4E3A1;
+$textcolor: #ffffff;
+$linkcolor: #FCD949;
+
 body {
-    background-color: aqua;
+  background: url(images/pexels-ingrid-beck-13827647.jpg);
 }

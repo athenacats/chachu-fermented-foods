@@ -1,7 +1,9 @@
 * {
+  margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: aqua;
+  background: url(images/pexels-ingrid-beck-13827647.jpg);
 }/*# sourceMappingURL=style.css.map */
