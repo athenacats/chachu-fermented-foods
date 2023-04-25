@@ -4,6 +4,7 @@
 // import contact from "./contact";
 
 import homepage from "./modules/homepage";
+import clearPage from "./modules/clearfunction";
 
 import "./style.scss";
 /* function component() {
@@ -11,3 +12,9 @@ import "./style.scss";
   content.appendChild(header);
 } */
 homepage();
+
+const homeLink = document.querySelector(".homeLink");
+homeLink.addEventListener("click", () => {
+  clearPage();
+  homepage();
+});
