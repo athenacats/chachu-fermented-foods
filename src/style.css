@@ -54,6 +54,9 @@ body::before {
   align-self: center;
   justify-self: center;
 }
+.header .navigation li:hover {
+  text-shadow: 0px 0px 8px #fcd949;
+}
 
 .container {
   height: 100%;

@@ -25,6 +25,10 @@
         list-style-type: none;
         align-self: center;
         justify-self: center;
+        &:hover {
+           
+            text-shadow: 0px 0px 8px $linkcolor;
+        }
       }
     }
   }
