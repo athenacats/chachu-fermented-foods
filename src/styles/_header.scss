@@ -1,0 +1,30 @@
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+  }
+  
+  .header {
+    background-color: $secondarycolor;
+    @include flexCenter(column);
+    color: $textcolor;
+    padding: 3%;
+    gap: 4%;
+    font-size: 1.2rem;
+    .navigation {
+      width: 100%;
+      font-family: "Libre Baskerville", "Montserrat", serif, sans-serif;
+      justify-content: space-around;
+      ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      li {
+          cursor: pointer;
+        list-style-type: none;
+        align-self: center;
+        justify-self: center;
+      }
+    }
+  }
