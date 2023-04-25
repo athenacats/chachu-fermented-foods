@@ -30,6 +30,20 @@ body::before {
 
 .header {
   background-color: #0e2c0c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+}
+.header .navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.header .navigation li {
+  list-style-type: none;
 }
 
 #content {

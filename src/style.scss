@@ -10,8 +10,25 @@
 
 @import "./styles/body";
 
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
 .header {
   background-color: $secondarycolor;
+  @include flexCenter(column);
+  color: $textcolor;
+  .navigation {
+    @include flexCenter(row);
+    li {
+        list-style-type: none;
+    }
+    
+  }
+
 }
 
 #content {
