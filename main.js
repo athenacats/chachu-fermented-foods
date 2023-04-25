@@ -126,7 +126,17 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_homepage__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/homepage */ \"./src/modules/homepage.js\");\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n// import defaultPage from \"./loadpage\";\n// import home from \"./home\";\n// import menu from \"./menu\";\n// import contact from \"./contact\";\n\n\n\n\n/* function component() {\n  const content = document.getElementById(\"content\");\n  content.appendChild(header);\n} */\n(0,_modules_homepage__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n\n//# sourceURL=webpack://chachu-fermented-foods/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_homepage__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/homepage */ \"./src/modules/homepage.js\");\n/* harmony import */ var _modules_clearfunction__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/clearfunction */ \"./src/modules/clearfunction.js\");\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n// import defaultPage from \"./loadpage\";\n// import home from \"./home\";\n// import menu from \"./menu\";\n// import contact from \"./contact\";\n\n\n\n\n\n/* function component() {\n  const content = document.getElementById(\"content\");\n  content.appendChild(header);\n} */\n(0,_modules_homepage__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\nconst homeLink = document.querySelector(\".homeLink\");\nhomeLink.addEventListener(\"click\", () => {\n  (0,_modules_clearfunction__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n  (0,_modules_homepage__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n});\n\n\n//# sourceURL=webpack://chachu-fermented-foods/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/modules/clearfunction.js":
+/*!**************************************!*\
+  !*** ./src/modules/clearfunction.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction clearPage() {\n  const content = document.querySelector(\"#content\");\n  content.replaceChildren();\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (clearPage);\n\n\n//# sourceURL=webpack://chachu-fermented-foods/./src/modules/clearfunction.js?");
 
 /***/ }),
 
