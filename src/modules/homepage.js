@@ -12,8 +12,11 @@ navigation.classList.add("navigation");
 const ul = document.createElement("ul");
 navigation.appendChild(ul);
 const li1 = document.createElement("li");
+li1.classList.add("menuItem");
 const li2 = document.createElement("li");
+li2.classList.add("menuItem");
 const li3 = document.createElement("li");
+li3.classList.add("menuItem");
 const text1 = document.createTextNode("Home");
 const text2 = document.createTextNode("Menu");
 
