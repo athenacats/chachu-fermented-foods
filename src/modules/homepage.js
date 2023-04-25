@@ -11,11 +11,11 @@ function homepage() {
   const ul = document.createElement("ul");
   navigation.appendChild(ul);
   const li1 = document.createElement("li");
-  li1.classList.add("menuItem");
+  li1.classList.add("homeLink");
   const li2 = document.createElement("li");
-  li2.classList.add("menuItem");
+  li2.classList.add("menuLink");
   const li3 = document.createElement("li");
-  li3.classList.add("menuItem");
+  li3.classList.add("contactLink");
   const text1 = document.createTextNode("Home");
   const text2 = document.createTextNode("Menu");
 
