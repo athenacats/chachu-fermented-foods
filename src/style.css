@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "croissant-one";
+  src: url(./croissant-one/CroissantOne-Regular.eot) format("embedded-opentype"), url("./croissant-one/CroissantOne-Regular.otf") format("otf"), url("./croissant-one/CroissantOne-Regular.ttf") format("ttf"), url("./croissant-one/croissantone-regular-webfont.woff") format("woff"), url("./croissant-one/croissantone-regular-webfont.woff2") format("woff2");
+}
 body {
   background-color: #92c24c;
+  font-family: "croissant-one", "Libre Baskerville", "Montserrat", serif, sans-serif;
 }
 body::before {
   content: "";

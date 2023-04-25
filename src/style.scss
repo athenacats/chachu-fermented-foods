@@ -10,31 +10,41 @@ $tertiarycolor: #f4e3a1;
 $textcolor: #ffffff;
 $linkcolor: #fcd949;
 
+@font-face {
+  font-family: "croissant-one";
+  src: url(./croissant-one/CroissantOne-Regular.eot) format("embedded-opentype"),
+    url("./croissant-one/CroissantOne-Regular.otf") format("otf"),
+    url("./croissant-one/CroissantOne-Regular.ttf") format("ttf"),
+    url("./croissant-one/croissantone-regular-webfont.woff") format("woff"),
+    url("./croissant-one/croissantone-regular-webfont.woff2") format("woff2");
+}
 
 body {
+  background-color: $primarycolor;
+  font-family: "croissant-one", "Libre Baskerville", "Montserrat", serif,
+    sans-serif;
+  &::before {
+    content: "";
+    position: absolute;
+    background: url(images/pexels-ingrid-beck-13827647.jpg);
     background-color: $primarycolor;
-    &::before {
-        content: "";
-        position: absolute;
-        background: url(images/pexels-ingrid-beck-13827647.jpg);
-        background-color: $primarycolor;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        top: 0px;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
-        opacity: 0.3;
-        z-index: -1;
-      }
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+    z-index: -1;
+  }
 }
 
 .header {
-    background-color: $secondarycolor;
+  background-color: $secondarycolor;
 }
 
 #content {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
