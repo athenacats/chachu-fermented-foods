@@ -29,7 +29,7 @@ body::before {
 }
 
 .header {
-  background-color: #0e2c0c;
+  background-color: rgba(14, 44, 12, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,6 +53,60 @@ body::before {
   list-style-type: none;
   align-self: center;
   justify-self: center;
+}
+
+.container {
+  height: 100%;
+}
+.container .about {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 5%;
+  background-color: rgba(14, 44, 12, 0.7);
+  border-radius: 1rem;
+  color: #ffffff;
+}
+.container .about .aboutTitle {
+  font-size: 1.5rem;
+}
+.container .about p {
+  font-family: "Libre Baskerville", "Montserrat", serif, sans-serif;
+  text-align: center;
+}
+.container .about .buttonBar {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container .about .buttonBar button {
+  padding-left: 0.8rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-right: 0.8rem;
+  font-family: "croissant-one", "Libre Baskerville", "Montserrat", serif, sans-serif;
+  font-size: 1rem;
+  background-color: #0e2c0c;
+  color: #ffffff;
+  border: 1px solid #0e2c0c;
+  box-shadow: 0 0 16px #0e2c0c;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.container .about .buttonBar button:hover {
+  border: 1px solid #92c24c;
+  box-shadow: 0 0 16px #92c24c;
+  color: #fcd949;
 }
 
 #content {
