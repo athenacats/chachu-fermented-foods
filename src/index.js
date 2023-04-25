@@ -5,6 +5,7 @@
 
 import homepage from "./modules/homepage";
 import clearPage from "./modules/clearfunction";
+import menu from "./modules/menu";
 
 import "./style.scss";
 /* function component() {
@@ -17,4 +18,10 @@ const homeLink = document.querySelector(".homeLink");
 homeLink.addEventListener("click", () => {
   clearPage();
   homepage();
+});
+
+const menuLink = document.querySelector(".menuLink");
+menuLink.addEventListener("click", () => {
+  clearPage();
+  menu();
 });
