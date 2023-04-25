@@ -6,6 +6,7 @@
 import homepage from "./modules/homepage";
 import clearPage from "./modules/clearfunction";
 import menu from "./modules/menu";
+import contactPage from "./modules/contact";
 
 import "./style.scss";
 /* function component() {
@@ -24,4 +25,10 @@ const menuLink = document.querySelector(".menuLink");
 menuLink.addEventListener("click", () => {
   clearPage();
   menu();
+});
+
+const contactLink = document.querySelector(".contactLink");
+contactLink.addEventListener("click", () => {
+  clearPage();
+  contactPage();
 });
