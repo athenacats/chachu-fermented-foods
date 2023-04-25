@@ -12,58 +12,7 @@
 
 @import "./styles/header";
 
-.container {
-    height: 100%;
-    .about {
-        position: absolute; 
-        top: 60%;
-        left: 50%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        width: 70%;
-        @include flexCenter(column);
-        gap: 1rem;
-        padding: 5%;
-        background-color: rgba($secondarycolor, 0.7);
-        border-radius: 1rem;
-        color: $textcolor;
-        .aboutTitle {
-            font-size: 1.5rem;
-            
-        }
-        p {
-            font-family: "Libre Baskerville", "Montserrat", serif,
-            sans-serif;
-            text-align: center;
-        }
-        .buttonBar {
-            width: 80%;
-            @include flexCenter(row);
-            justify-content: space-around;
-            button {
-                padding-left: 0.8rem;
-                padding-top: 0.2rem;
-                padding-bottom: 0.2rem;
-                padding-right: 0.8rem;
-                font-family: "croissant-one", "Libre Baskerville", "Montserrat", serif,
-                sans-serif;
-                font-size: 1rem;
-                background-color: $secondarycolor;
-                color: $textcolor;
-                border: 1px solid $secondarycolor;
-                box-shadow: 0 0 16px $secondarycolor;
-                border-radius: 1rem;
-                cursor: pointer;
-                &:hover {
-                    border: 1px solid $primarycolor;
-                box-shadow: 0 0 16px $primarycolor;
-                color: $linkcolor;
-
-                }
-            }
-        }
-    }
-}
+@import "./styles/container";
 
 #content {
   display: flex;
