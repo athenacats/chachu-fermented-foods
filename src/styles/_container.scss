@@ -1,5 +1,8 @@
 .container {
   height: 100%;
+  width: 100%;
+  background-color: rgba($primarycolor, 0.7);
+  z-index: 1 ;
   .about {
     position: absolute;
     top: 60%;
