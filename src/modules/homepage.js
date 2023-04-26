@@ -19,29 +19,9 @@ function homepage() {
   const aboutText2 = document.createElement("p");
   aboutText2.classList.add("aboutText2");
   aboutText2.textContent =
-    "Check out the different gut friendly foods we have below!";
+    "Check out the different gut friendly foods we have!";
   about.appendChild(aboutText2);
 
-  const buttonBar = document.createElement("div");
-  buttonBar.classList.add("buttonBar");
-
-  const button1 = document.createElement("button");
-  button1.classList.add("button");
-  button1.textContent = "Pastries";
-  // button1.addEventListener("click", () => {
-  buttonBar.appendChild(button1);
-
-  const button2 = document.createElement("button");
-  button2.classList.add("button");
-  button2.textContent = "Sides";
-  buttonBar.appendChild(button2);
-
-  const button3 = document.createElement("button");
-  button3.classList.add("button");
-  button3.textContent = "Drinks";
-  buttonBar.appendChild(button3);
-
-  about.appendChild(buttonBar);
   container.appendChild(about);
 
   const content = document.getElementById("content");
