@@ -2,6 +2,12 @@ function menu() {
   const container = document.createElement("div");
   container.classList.add("container");
 
+  const pastriesPhoto = document.createElement("div");
+  pastriesPhoto.classList.add("pastriesPhoto");
+  pastriesPhoto.innerHTML =
+    '<img src="../src/images/pexels-marta-dzedyshko-7175448.jpg" alt="woman holding sourdough bread">';
+  container.appendChild(pastriesPhoto);
+
   const pastries = document.createElement("div");
   pastries.classList.add("pastries");
 
@@ -47,6 +53,12 @@ function menu() {
 
   container.appendChild(pastries);
 
+  const drinksPhoto = document.createElement("div");
+  drinksPhoto.classList.add("drinksPhoto");
+  drinksPhoto.innerHTML =
+    '<img src="../src/images/pexels-kübra-doğu-8802312.jpg" alt="pouring kombucha into glass">';
+  container.appendChild(drinksPhoto);
+
   const drinks = document.createElement("div");
   drinks.classList.add("drinks");
 
@@ -87,6 +99,12 @@ function menu() {
   drinksul.appendChild(drinksli7);
 
   container.appendChild(drinks);
+
+  const sidesPhoto = document.createElement("div");
+  sidesPhoto.classList.add("sidesPhoto");
+  sidesPhoto.innerHTML =
+    '<img src="../src/images/pexels-roman-odintsov-5338145.jpg" alt="kimchi in small dish">';
+  container.appendChild(sidesPhoto);
 
   const sides = document.createElement("div");
   sides.classList.add("sides");
