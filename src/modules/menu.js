@@ -5,7 +5,7 @@ function menu() {
   const pastriesPhoto = document.createElement("div");
   pastriesPhoto.classList.add("pastriesPhoto");
   pastriesPhoto.innerHTML =
-    '<img src="../src/images/pexels-marta-dzedyshko-7175448.jpg" alt="woman holding sourdough bread">';
+    '<img src="../src/images/pexels-marta-dzedyshko-7175448_11zon.jpg" alt="woman holding sourdough bread">';
   containerMenu.appendChild(pastriesPhoto);
 
   const pastries = document.createElement("div");
@@ -97,13 +97,13 @@ function menu() {
   const drinksPhoto = document.createElement("div");
   drinksPhoto.classList.add("drinksPhoto");
   drinksPhoto.innerHTML =
-    '<img src="../src/images/pexels-kübra-doğu-8802312.jpg" alt="pouring kombucha into glass">';
+    '<img src="../src/images/pexels-kübra-doğu-8802312 (1).jpg" alt="pouring kombucha into glass">';
   containerMenu.appendChild(drinksPhoto);
 
   const sidesPhoto = document.createElement("div");
   sidesPhoto.classList.add("sidesPhoto");
   sidesPhoto.innerHTML =
-    '<img src="../src/images/pexels-roman-odintsov-5338145.jpg" alt="kimchi in small dish">';
+    '<img src="../src/images/pexels-roman-odintsov-5338145_11zon.jpg" alt="kimchi in small dish">';
   containerMenu.appendChild(sidesPhoto);
 
   const sides = document.createElement("div");
