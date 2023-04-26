@@ -1,15 +1,17 @@
 .containerMenu {
-    
+    width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 5%;
     gap: 5%;
+    margin: auto;
     
     .pastries, .sides, .drinks {
         background-color: rgba($secondarycolor, 0.8);
         padding: 5%;
         color: $textcolor;
         border-radius: 1.5rem;  
+        
        
     }
     li {
