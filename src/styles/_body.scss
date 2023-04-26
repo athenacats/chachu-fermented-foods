@@ -1,20 +1,14 @@
 body {
-  background-color: $primarycolor;
+  
   font-family: "croissant-one", "Libre Baskerville", "Montserrat", serif,
     sans-serif;
-  &::before {
-    content: "";
-    position: absolute;
+ 
     background: url(images/pexels-ingrid-beck-13827647.jpg);
-    background-color: $primarycolor;
+    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.3;
-    z-index: -1;
-  }
+    background-attachment: fixed;
+    
+  
 }
