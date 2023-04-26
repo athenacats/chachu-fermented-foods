@@ -44,4 +44,18 @@
     }
     
   }
+
+  @media  screen and (max-width: 600px){
+    .containerMenu{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    img {
+        height: 300px;
+    }
+    .drinksPhoto, .sidesPhoto {
+        display: none;
+    }
+    }
   
