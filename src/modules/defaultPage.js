@@ -28,8 +28,14 @@ function defaultPage() {
   ul.appendChild(li3);
   header.appendChild(navigation);
 
+  const footer = document.createElement("div");
+  footer.classList.add("footer");
+  const text4 = document.createTextNode("Copyright © 2017");
+  footer.appendChild(text4);
+
   const content = document.getElementById("content");
   content.appendChild(header);
+  content.appendChild(footer);
 }
 
 export default defaultPage;
