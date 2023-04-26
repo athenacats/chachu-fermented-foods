@@ -1,16 +1,18 @@
 .containerContact {
+    height:100%;
     .contact-box {
         padding: 5%;
         color: $textcolor;
         background-color: rgba($secondarycolor, 0.8);
-        row-gap: 5%;
         width: 70%;
         margin: auto;
         margin-top: 5%;
+        margin-bottom: 60px;
         display: grid;
         grid-template-columns: 1fr 5fr;
         grid-template-rows: 1fr 1fr 1fr 5fr;
         column-gap: 2%;
+        border-radius: 1.5rem;
         .icon1, .icon2, .icon3 {
             justify-self: right;
         }
