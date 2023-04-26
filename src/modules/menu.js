@@ -1,12 +1,12 @@
 function menu() {
-  const container = document.createElement("div");
-  container.classList.add("container");
+  const containerMenu = document.createElement("div");
+  containerMenu.classList.add("containerMenu");
 
   const pastriesPhoto = document.createElement("div");
   pastriesPhoto.classList.add("pastriesPhoto");
   pastriesPhoto.innerHTML =
     '<img src="../src/images/pexels-marta-dzedyshko-7175448.jpg" alt="woman holding sourdough bread">';
-  container.appendChild(pastriesPhoto);
+  containerMenu.appendChild(pastriesPhoto);
 
   const pastries = document.createElement("div");
   pastries.classList.add("pastries");
@@ -51,13 +51,7 @@ function menu() {
   pastriesul.appendChild(pastriesli6);
   pastriesul.appendChild(pastriesli7);
 
-  container.appendChild(pastries);
-
-  const drinksPhoto = document.createElement("div");
-  drinksPhoto.classList.add("drinksPhoto");
-  drinksPhoto.innerHTML =
-    '<img src="../src/images/pexels-kübra-doğu-8802312.jpg" alt="pouring kombucha into glass">';
-  container.appendChild(drinksPhoto);
+  containerMenu.appendChild(pastries);
 
   const drinks = document.createElement("div");
   drinks.classList.add("drinks");
@@ -98,13 +92,19 @@ function menu() {
   drinksul.appendChild(drinksli6);
   drinksul.appendChild(drinksli7);
 
-  container.appendChild(drinks);
+  containerMenu.appendChild(drinks);
+
+  const drinksPhoto = document.createElement("div");
+  drinksPhoto.classList.add("drinksPhoto");
+  drinksPhoto.innerHTML =
+    '<img src="../src/images/pexels-kübra-doğu-8802312.jpg" alt="pouring kombucha into glass">';
+  containerMenu.appendChild(drinksPhoto);
 
   const sidesPhoto = document.createElement("div");
   sidesPhoto.classList.add("sidesPhoto");
   sidesPhoto.innerHTML =
     '<img src="../src/images/pexels-roman-odintsov-5338145.jpg" alt="kimchi in small dish">';
-  container.appendChild(sidesPhoto);
+  containerMenu.appendChild(sidesPhoto);
 
   const sides = document.createElement("div");
   sides.classList.add("sides");
@@ -145,10 +145,10 @@ function menu() {
   sidesul.appendChild(sidesli6);
   sidesul.appendChild(sidesli7);
 
-  container.appendChild(sides);
+  containerMenu.appendChild(sides);
 
   const content = document.getElementById("content");
-  content.appendChild(container);
+  content.appendChild(containerMenu);
 }
 
 export default menu;
