@@ -39,6 +39,12 @@ function contactPage() {
   address.textContent = "Rosslyn Mall, Nairobi, Kenya";
   contactBox.appendChild(address);
 
+  const map = document.createElement("div");
+  map.classList.add("map");
+  map.innerHTML =
+    '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.918952871901!2d36.797678814753844!3d-1.2165719991126391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f3d5eef234b95%3A0xac9e573f43fe5923!2sRosslyn%20Riviera%20Mall!5e0!3m2!1sen!2sus!4v1682487959275!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
+  contactBox.appendChild(map);
+
   const content = document.getElementById("content");
   content.appendChild(container);
 }
