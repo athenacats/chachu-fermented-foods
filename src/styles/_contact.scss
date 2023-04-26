@@ -1,0 +1,28 @@
+.containerContact {
+    .contact-box {
+        padding: 5%;
+        color: $textcolor;
+        background-color: rgba($secondarycolor, 0.8);
+        row-gap: 5%;
+        width: 70%;
+        margin: auto;
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        grid-template-rows: 1fr 1fr 1fr 5fr;
+        column-gap: 2%;
+        .icon1, .icon2, .icon3 {
+            justify-self: right;
+        }
+        .map {
+            grid-column: span 2;
+            justify-content: center;
+        }
+        iframe {
+            max-width: 80%;
+            justify-self: center;
+
+        }
+        
+    }
+}

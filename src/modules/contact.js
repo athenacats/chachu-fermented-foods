@@ -1,10 +1,10 @@
 function contactPage() {
-  const container = document.createElement("div");
-  container.classList.add("container");
+  const containerContact = document.createElement("div");
+  containerContact.classList.add("containerContact");
 
   const contactBox = document.createElement("div");
   contactBox.classList.add("contact-box");
-  container.appendChild(contactBox);
+  containerContact.appendChild(contactBox);
 
   const icon1 = document.createElement("div");
   icon1.classList.add("icon1");
@@ -46,7 +46,7 @@ function contactPage() {
   contactBox.appendChild(map);
 
   const content = document.getElementById("content");
-  content.appendChild(container);
+  content.appendChild(containerContact);
 }
 
 export default contactPage;
