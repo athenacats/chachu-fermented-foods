@@ -18,6 +18,7 @@
     .aboutTitle {
       font-size: 1.5rem;
       color: $linkcolor;
+      text-align: center;
     }
     p {
       font-family: "Libre Baskerville", "Montserrat", serif, sans-serif;
@@ -26,3 +27,14 @@
    
   }
 }
+
+@media  screen and (max-width: 500px){
+  .aboutTitle {
+  font-size: 1rem;
+  }
+p {
+  font-size: 0.8rem;
+}
+  }
+  
+
