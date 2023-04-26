@@ -8,4 +8,12 @@
    background-color: rgba($secondarycolor, 0.8);
    color: $textcolor;
    overflow: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   .githubIcon {
+    align-self: center;
+    margin-top: 15px;
+   }
 }
