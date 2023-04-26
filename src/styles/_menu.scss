@@ -1,32 +1,38 @@
 .containerMenu {
+    height: 100%;
     width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 5%;
-    gap: 5%;
+   
     margin: auto;
-    
+    margin-bottom: 60px;
+    column-gap: 5%;
     .pastries, .sides, .drinks {
         background-color: rgba($secondarycolor, 0.8);
         padding: 5%;
         color: $textcolor;
         border-radius: 1.5rem;  
-        
-       
+        margin-top: 20px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     li {
-        list-style-type: none;
+        list-style-type: circle;
+        list-style-position: inside;
         font-family: "Libre Baskerville", "Montserrat", serif, sans-serif;
         line-height: 2rem;
         text-align: center;
     }
     .pastriesTitle, .drinksTitle, .sidesTitle {
-        font-size: 1.5rem;   
+        font-size: 2rem;   
         text-align: center;
     }
     .pastriesPhoto, .drinksPhoto, .sidesPhoto {
         align-self: center;
         justify-self: center;
+        padding-top: 20px;
         
     }
     img {
