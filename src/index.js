@@ -6,10 +6,7 @@ import menu from "./modules/menu";
 import contactPage from "./modules/contact";
 
 import "./style.scss";
-/* function component() {
-  const content = document.getElementById("content");
-  content.appendChild(header);
-} */
+
 defaultPage();
 homepage();
 footerPage();
