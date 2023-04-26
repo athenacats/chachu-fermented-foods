@@ -1,5 +1,14 @@
 .containerContact {
     height:100%;
+    svg path {
+        stroke: $linkcolor;
+        stroke-linecap: $linkcolor;
+        stroke-linejoin: $linkcolor;
+        
+    }
+    circle { //the pesky inner circle in @ and pin wasnt changing color unless you add this
+        stroke: $linkcolor;
+    }
     .contact-box {
         padding: 5%;
         color: $textcolor;
