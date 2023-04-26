@@ -37,3 +37,13 @@
         
     }
 }
+
+@media  screen and (max-width: 600px){
+    .containerContact {
+font-size: 0.7rem;
+svg {
+   height: 0.9rem; 
+}
+    }
+    
+  }
