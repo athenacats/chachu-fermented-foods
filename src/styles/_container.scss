@@ -1,7 +1,7 @@
 .container {
   height: 100%;
   width: 100%;
-  
+
   .about {
     position: absolute;
     top: 60%;
@@ -24,17 +24,14 @@
       font-family: "Libre Baskerville", "Montserrat", serif, sans-serif;
       text-align: center;
     }
-   
   }
 }
 
-@media  screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
   .aboutTitle {
-  font-size: 1rem;
+    font-size: 1rem;
   }
-p {
-  font-size: 0.8rem;
+  p {
+    font-size: 0.8rem;
+  }
 }
-  }
-  
-
