@@ -1,5 +1,5 @@
 import "../images/pexels-roman-odintsov-5338145_11zon.jpg";
-import "../images/pexels-kübra-doğu-8802312.jpg";
+import "../images/pexels-kubra-dogu-8802312.jpg";
 import "../images/pexels-marta-dzedyshko-7175448_11zon.jpg";
 
 function menu() {
@@ -101,7 +101,7 @@ function menu() {
   const drinksPhoto = document.createElement("div");
   drinksPhoto.classList.add("drinksPhoto");
   drinksPhoto.innerHTML =
-    '<img src="../images/pexels-kübra-doğu-8802312.jpg" alt="pouring kombucha into glass">';
+    '<img src="../images/pexels-kubra-dogu-8802312.jpg" alt="pouring kombucha into glass">';
   containerMenu.appendChild(drinksPhoto);
 
   const sidesPhoto = document.createElement("div");
