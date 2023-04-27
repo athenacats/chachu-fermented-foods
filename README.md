@@ -25,8 +25,6 @@
 
 This is a functional restaurant page for a fictional restaurant. Its purpose is to practice implementation of ES6 modules, using Webpack. I personally decided to use SASS as well so that i can practice a different CSS framework.
 
-![African Tic Tac Toe Demonstration](images/tic-tac-toe.gif)
-
 ## Technologies
 
 HTML, SASS and Javascript. Additional framework used is Webpack.
