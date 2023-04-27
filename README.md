@@ -34,7 +34,7 @@ HTML, SASS and Javascript. Additional framework used is Webpack.
 ## Setup
 
 To see the live page hosted by Github pages, click the link below:
-[chachu-fermented-foods](https://athenacats.github.io/chachu-fermented-foods/)
+[Chachu Fermented Foods](https://athenacats.github.io/chachu-fermented-foods/)
 
 ## Project Status
 
@@ -49,6 +49,7 @@ I'll watch more videos to learn it better.
 ## Future Implementation
 
 - Works as is. Perhaps add backend functionality to make email popup an email browser like gmail.
+- Make the website load faster. Look into lazy load
 
 ## Acknowledgements
 
