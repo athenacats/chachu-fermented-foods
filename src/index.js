@@ -7,10 +7,6 @@ import contactPage from "./modules/contact";
 
 import "./style.scss";
 
-import "./images/pexels-kubra-dogu-8802312.jpg";
-import "./images/pexels-marta-dzedyshko-7175448_11zon.jpg";
-import "./images/pexels-roman-odintsov-5338145_11zon.jpg";
-
 defaultPage();
 homepage();
 footerPage();

@@ -1,5 +1,5 @@
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin"); // eslint-disable-line import/no-extraneous-dependencies
 
 module.exports = {
   entry: "./src/index.js",
@@ -9,7 +9,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./dist/index.html",
+      template: path.join(__dirname, "./dist/index.html"),
     }),
   ],
   module: {
@@ -35,7 +35,13 @@ module.exports = {
           // Creates `style` nodes from JS strings
           "style-loader",
           // Translates CSS into CommonJS
-          "css-loader",
+          {
+            loader: "css-loader",
+            options: {
+              url: false,
+            },
+          },
+
           // Compiles Sass to CSS
           "sass-loader",
         ],

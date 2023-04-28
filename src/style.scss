@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 @import "./styles/variables";
 
 @import "./styles/fonts";
@@ -19,6 +13,12 @@
 @import "./styles/contact";
 
 @import "./styles/footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 #content {
   display: flex;
